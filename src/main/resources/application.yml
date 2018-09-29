@@ -1,0 +1,7 @@
+error-code-meaning:
+  errorDescriptionMapping:
+    1000: {errorCode: 1000, meaning: 'AUTHENTICATION_ERROR', httpStatusCode: 401}
+    1001: {errorCode: 1001, meaning: 'AUTHORIZATION_ERROR', httpStatusCode: 403}
+    1002: {errorCode: 1002, meaning: 'RESPONSE_TIMEOUT', httpStatusCode: 500}
+    1003: {errorCode: 1003, meaning: 'NETWORK_ERROR', httpStatusCode: 500}
+    1004: {errorCode: 1004, meaning: 'UNKNOWN_ERROR', httpStatusCode: 500}
